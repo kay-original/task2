@@ -1,0 +1,170 @@
+@media screen and ( max-width:1079px ) {
+  header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 100;
+  }
+  .opt-title{
+    margin-top: 60px;
+  }
+  .menu-btn {
+    position: fixed;
+    right: 50px;
+    display: flex;
+    height: 21px;
+    width: 30px;
+    align-items: center;
+    z-index: 90;
+  }
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: black;
+    position: absolute;
+  }
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+  .menu-btn span:after {
+    top: 8px;
+  }
+  .menu-content ul{
+    display: none;
+  }
+  .section-title h1 br{
+    display: inline;
+  }
+}
+@media screen and ( max-width:769px ) {
+  .contents-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .opt-title{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-sp.png);
+    background-size: contain;
+    background-color: #f79314;
+    padding: 42px 0 90px 0;
+  }
+  .opt-title h1{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.3;
+    padding: 0;
+  }
+  .section-title h1{
+    font-size: 26px;
+  }
+  .normal-weight{
+    text-align: left;
+    font-size: 15px;
+  }
+  .normal-weight br{
+    display: none;
+  }
+  .emphasis{
+    text-align: center;
+    
+  }
+  .decoration{
+    font-size: 16px;
+  }
+  .decoration br{
+    display: inline;
+  }
+  .common-title{
+    font-size: 20px;
+  }
+  .circle{
+    width: 80px;
+    height: 80px;
+    margin-bottom: -40px;
+  }
+  .circle img{
+    width: 32px;
+    height: 32px;
+  }
+  .point-list{
+    display: block;
+  }
+  .point-list li{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .course-detail{
+    display: block;
+    padding: 0;
+  }
+  .course-content{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .language{
+    width: 100%;
+  }
+  .interview-list{
+    display: block;
+  }
+  .interview-list li{
+    width: 100%;
+  }
+  .interview-list li:hover img{
+    transform: scale(1);
+    transition: 0;
+  }
+  .interview-list li:hover .interview-text{
+    color: black;
+    transition: 0;
+  }
+  .interview-pct img{
+    height: 545px;
+    transform: scale(1);
+  }
+  .page-top-button:hover {
+  background-color: white;
+}
+.page-top-button:hover p{
+  border-color: #f79214;
+}
+  .potepan-address{
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    order: 2;
+    padding-top: 30px;
+    border-top: solid 1px white;
+    margin-top: 30px;
+  }
+  .footer-list{
+    width: 100%;
+    display: block;
+    text-align: left;
+    order: 1;
+    position: relative;
+    padding-bottom: 100px;
+  }
+  .footer-content{
+  display: block;
+  }
+  .footer-pct{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+  .copylight{
+    text-align: center;
+  }
+}

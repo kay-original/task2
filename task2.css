@@ -133,7 +133,8 @@ header{
   margin-bottom: -50px;
 }
 .circle img{
-  width: 100%;
+  width: 40px;
+  height: 40px;
 }
 .flame{
   background-color: white;
